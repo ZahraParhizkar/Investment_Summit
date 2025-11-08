@@ -50,8 +50,8 @@ stages = [
         "title_en": "4-Day Bootcamp",
         "date": "۲۹ آذر الی ۲ دی",
         "goal": "آموزش و آماده‌سازی تیم‌ها برای نوشتن BP",
-        "output": 
- """       
+        "output":""" 
+        
 روز اول: امکان سنجی از نظر فنی (برآورد هزینه)
 
 روز دوم: امکان سنجی از نظر بازار (برآورد فروش)
@@ -106,6 +106,7 @@ for stage in stages:
         st.markdown("<hr>", unsafe_allow_html=True)
 
 st.markdown("✅ طراحی شده توسط Streamlit – نسخه نمایشی برنامه زمان‌بندی سامیت")
+
 
 
 
