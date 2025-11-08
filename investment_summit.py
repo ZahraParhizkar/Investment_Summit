@@ -1,12 +1,12 @@
 # فایل: summit_schedule_app.py
 
 import streamlit as st
-
+st.image("path/to/your/image.png", use_column_width=True)
 # -----------------------------
 # عنوان اپلیکیشن
 # -----------------------------
-st.set_page_config(page_title="Investment Summit - Life Sciences", layout="centered")
-st.title("🧭 Investment Summit – Life Sciences Roadmap")
+st.set_page_config(page_title="Investment Summit - Health Science and Technology Park", layout="centered")
+st.title("🧭 Investment Summit")
 
 # -----------------------------
 # تعریف داده‌ها (هر مرحله به همراه نام انگلیسی)
@@ -106,6 +106,7 @@ for stage in stages:
         st.markdown("<hr>", unsafe_allow_html=True)
 
 st.markdown("✅ طراحی شده توسط Streamlit – نسخه نمایشی برنامه زمان‌بندی سامیت")
+
 
 
 
