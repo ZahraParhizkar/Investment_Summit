@@ -1,7 +1,7 @@
 # فایل: summit_schedule_app.py
 
 import streamlit as st
-st.image("Screenshot 2025-10-25 094712.png", use_column_width=True)
+st.image("Picture1.png", use_column_width=True)
 # -----------------------------
 # عنوان اپلیکیشن
 # -----------------------------
@@ -104,3 +104,4 @@ for stage in stages:
         st.markdown(f"<div dir='rtl'><b>📄 خروجی:</b> {stage['output']}</div>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 st.image("logo-removebg-preview.png", use_column_width=True)
+
