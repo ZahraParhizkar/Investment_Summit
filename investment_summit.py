@@ -50,11 +50,13 @@ stages = [
         "title_en": "4-Day Bootcamp",
         "date": "۲۹ آذر الی ۲ دی",
         "goal": "آموزش و آماده‌سازی تیم‌ها برای Pitch و نوشتن BP",
-        "output": """روز ۱: Technical Brief / TRL  
-روز ۲: Market Summary + Sales Estimate  
-روز ۳: Financial Model اولیه  
-روز ۴: نسخه اولیه Business Plan + Pitch Summary"""
-    },
+        "output": """روز اول: امکان سنجی از نظر فنی (برآورد هزینه)
+
+روز دوم: امکان سنجی از نظر بازار (برآورد فروش)
+
+روز سوم: امکان سنجی از نظر مالی (ارزیابی اقتصادی طبق داده های بدست آمده از هزینه-فروش
+
+روز چهارم: نگارش Business Plan  """  },
     {
         "id": "Checkpoint",
         "title_fa": "جلسات Checkpoint / منتورینگ نهایی",
