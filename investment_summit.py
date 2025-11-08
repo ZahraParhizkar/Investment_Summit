@@ -95,7 +95,7 @@ stages = [
 # -----------------------------
 # رابط کاربری تعاملی (Accordion style)
 # -----------------------------
-st.markdown("### 📅 Pipeline")
+st.markdown("### Pipeline")
 
 for stage in stages:
     with st.expander(f"🔹 {stage['title_en']} "):
@@ -104,6 +104,7 @@ for stage in stages:
         st.markdown(f"<div dir='rtl'><b>📄 خروجی:</b> {stage['output']}</div>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
