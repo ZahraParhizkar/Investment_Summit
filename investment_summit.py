@@ -1,7 +1,7 @@
 # فایل: summit_schedule_app.py
 
 import streamlit as st
-st.image("path/to/your/image.png", use_column_width=True)
+st.image("Screenshot 2025-10-25 094712.png", use_column_width=True)
 # -----------------------------
 # عنوان اپلیکیشن
 # -----------------------------
@@ -106,6 +106,7 @@ for stage in stages:
         st.markdown("<hr>", unsafe_allow_html=True)
 
 st.markdown("✅ طراحی شده توسط Streamlit – نسخه نمایشی برنامه زمان‌بندی سامیت")
+
 
 
 
