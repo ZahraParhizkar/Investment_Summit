@@ -6,7 +6,6 @@ st.image("Screenshot 2025-10-25 094712.png", use_column_width=True)
 # عنوان اپلیکیشن
 # -----------------------------
 st.set_page_config(page_title="Investment Summit - Health Science and Technology Park", layout="centered")
-st.title("🧭 Investment Summit")
 
 # -----------------------------
 # تعریف داده‌ها (هر مرحله به همراه نام انگلیسی)
@@ -96,7 +95,7 @@ stages = [
 # -----------------------------
 # رابط کاربری تعاملی (Accordion style)
 # -----------------------------
-st.markdown("### 📅 مراحل و جزئیات")
+st.markdown("### 📅 Pipeline")
 
 for stage in stages:
     with st.expander(f"🔹 {stage['title_en']} "):
@@ -105,7 +104,8 @@ for stage in stages:
         st.markdown(f"<div dir='rtl'><b>📄 خروجی:</b> {stage['output']}</div>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 
-st.markdown("✅ طراحی شده توسط Streamlit – نسخه نمایشی برنامه زمان‌بندی سامیت")
+
+
 
 
 
