@@ -23,7 +23,7 @@ stages = [
         "id": "Registration",
         "title_fa": "ثبت‌نام و بارگذاری فایل PSF",
         "title_en": "Idea Registration & Upload",
-        "date": "۱۵–۲۰ آذر",
+        "date": "15-20 آذر",
         "goal": "دریافت ایده‌ها و Pre-Feasibility Study تیم‌ها",
         "output": "بانک داده ایده یا محصول اولیه به همراه PSF"
     },
@@ -45,9 +45,9 @@ stages = [
     },
     {
         "id": "Bootcamp",
-        "title_fa": "Bootcamp ۴ روزه",
+        "title_fa": "Bootcamp 4 روزه",
         "title_en": "4-Day Bootcamp",
-        "date": "۲۹ آذر الی ۲ دی",
+        "date": "29 آذر الی 2 دی",
         "goal": """ 
         
 روز اول: امکان سنجی از نظر فنی (برآورد هزینه)
@@ -104,5 +104,6 @@ for stage in stages:
         st.markdown(f"<div dir='rtl'><b>📄 خروجی:</b> {stage['output']}</div>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
