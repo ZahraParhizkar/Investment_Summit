@@ -1,6 +1,23 @@
 # فایل: summit_schedule_app.py
 
 import streamlit as st
+# -----------------------------
+# اضافه کردن پس‌زمینه
+# -----------------------------
+page_bg_img = """
+<style>
+.stApp {
+background-image: url("parkenter.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+</style>
+"""
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+#********
 st.image("Picture1.png", use_column_width=True)
 # -----------------------------
 # عنوان اپلیکیشن
@@ -104,6 +121,7 @@ for stage in stages:
         st.markdown(f"<div dir='rtl'><b>📄 خروجی:</b> {stage['output']}</div>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
