@@ -2,8 +2,11 @@
 
 import streamlit as st
 st.image("Picture1.png", use_column_width=True)
-
 # -----------------------------
+# عنوان اپلیکیشن
+# -----------------------------
+st.set_page_config(page_title="Investment Summit - Health Science and Technology Park", layout="centered")
+
 # اضافه کردن پس‌زمینه
 # -----------------------------
 page_bg_img = """
@@ -20,11 +23,6 @@ background-attachment: fixed;
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 #********
-# -----------------------------
-# عنوان اپلیکیشن
-# -----------------------------
-st.set_page_config(page_title="Investment Summit - Health Science and Technology Park", layout="centered")
-
 # -----------------------------
 # تعریف داده‌ها (هر مرحله به همراه نام انگلیسی)
 # -----------------------------
@@ -122,6 +120,7 @@ for stage in stages:
         st.markdown(f"<div dir='rtl'><b>📄 خروجی:</b> {stage['output']}</div>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
