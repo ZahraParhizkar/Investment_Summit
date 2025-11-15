@@ -15,7 +15,7 @@ stages = [
         "id": "PFS_Workshop",
         "title_fa": "کارگاه Pre-Feasibility Study",
         "title_en": "PFS Workshop",
-        "date": "۱۰–۱۴ آذر",
+        "date": "8-13آذر",
         "goal": "آموزش تیم‌ها برای نوشتن Pre-Feasibility Study استاندارد",
         "output": "سند اولیه Pre-Feasibility Study"
     },
@@ -28,20 +28,20 @@ stages = [
         "output": "بانک داده ایده یا محصول اولیه به همراه PSF"
     },
     {
-        "id": "Kickoff",
-        "title_fa": "Kick-Off Meeting",
-        "title_en": "Kick-Off Meeting",
-        "date": "۲۲ آذر",
-        "goal": "معرفی اهداف Summit و جدول زمان‌بندی؛ شبکه‌سازی اولیه",
-        "output": "درک مشترک فرآیند و ایجاد شبکه ارتباطی"
-    },
-    {
         "id": "Evaluation",
         "title_fa": "داوری اولیه (Evaluation Committee)",
         "title_en": "Initial Evaluation",
-        "date": "۲۳–۲۷ آذر",
+        "date": "22-26 آذر",
         "goal": "غربالگری ایده‌ها و انتخاب تیم‌های برگزیده برای Bootcamp",
         "output": "فهرست تیم‌های پذیرفته‌شده برای Bootcamp"
+    },
+    {
+        "id": "Kickoff",
+        "title_fa": "Kick-Off Meeting",
+        "title_en": "Kick-Off Meeting",
+        "date": "27 آذر",
+        "goal": "معرفی اهداف Summit و جدول زمان‌بندی؛ شبکه‌سازی اولیه",
+        "output": "درک مشترک فرآیند و ایجاد شبکه ارتباطی"
     },
     {
         "id": "Bootcamp",
@@ -104,4 +104,5 @@ for stage in stages:
         st.markdown(f"<div dir='rtl'><b>📄 خروجی:</b> {stage['output']}</div>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
