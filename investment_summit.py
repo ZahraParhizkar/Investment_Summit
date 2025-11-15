@@ -7,6 +7,42 @@ st.image("Picture1.png", use_column_width=True)
 # -----------------------------
 st.set_page_config(page_title="Investment Summit - Health Science and Technology Park", layout="centered")
 
+
+
+#*******************************************************************************
+# -----------------------------
+# اضافه کردن بک‌گراند با شفافیت نصف
+# -----------------------------
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url("parkenter.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* برای شفافیت نصف روی تمام المان‌ها */
+        position: relative;
+    }}
+    /* اضافه کردن یک لایه نیمه شفاف روی بک‌گراند */
+    .stApp::before {{
+        content: "";
+        background-color: rgba(255,255,255,0.5); /* 0.5 = نصف شفافیت */
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+#*******************************************************************************
+
 # -----------------------------
 # تعریف داده‌ها (هر مرحله به همراه نام انگلیسی)
 # -----------------------------
@@ -98,3 +134,4 @@ for stage in stages:
         st.markdown("<hr>", unsafe_allow_html=True)
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
