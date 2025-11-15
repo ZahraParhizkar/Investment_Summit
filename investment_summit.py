@@ -1,31 +1,20 @@
 # فایل: summit_schedule_app.py
 import streamlit as st
-
-# -----------------------------
-# تنظیمات صفحه
-# -----------------------------
-st.set_page_config(
-    page_title="Investment Summit - Health Science and Technology Park",
-    layout="centered"
-)
-
-# -----------------------------
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
-
-# -----------------------------
-# نمایش تصویر بالای صفحه
-# -----------------------------
 st.image("Picture1.png", use_column_width=True)
 
 # -----------------------------
-# تعریف داده‌ها
+# عنوان اپلیکیشن
+# -----------------------------
+st.set_page_config(page_title="Investment Summit - Health Science and Technology Park", layout="centered")
+
+# -----------------------------
+# تعریف داده‌ها (هر مرحله به همراه نام انگلیسی)
 # -----------------------------
 stages = [
     {
-        "id": "Pre-Feasibility Study Workshop",
+        "id": "PFS_Workshop",
         "title_fa": "کارگاه Pre-Feasibility Study",
-        "title_en": "Pre-Feasibility Study Workshop",
+        "title_en": "PFS Workshop",
         "date": "8-13آذر",
         "goal": "آموزش تیم‌ها برای نوشتن Pre-Feasibility Study استاندارد",
         "output": "سند اولیه Pre-Feasibility Study"
@@ -33,7 +22,7 @@ stages = [
     {
         "id": "Registration",
         "title_fa": "ثبت‌نام و بارگذاری فایل PSF",
-        "title_en": "Registration",
+        "title_en": "Idea Registration & Upload",
         "date": "15-20 آذر",
         "goal": "دریافت ایده‌ها و Pre-Feasibility Study تیم‌ها",
         "output": "بانک داده ایده یا محصول اولیه به همراه PSF"
@@ -59,11 +48,7 @@ stages = [
         "title_fa": "Bootcamp 4 روزه",
         "title_en": "4-Day Bootcamp",
         "date": "29 آذر الی 2 دی",
-        "goal": """ 
-روز اول: امکان سنجی از نظر فنی (برآورد هزینه)
-روز دوم: امکان سنجی از نظر بازار (برآورد فروش)
-روز سوم: امکان سنجی از نظر مالی (ارزیابی اقتصادی طبق داده های بدست آمده از هزینه-فروش)
-روز چهارم: نگارش Business Plan  """ ,
+        "goal": """ روز اول: امکان سنجی از نظر فنی (برآورد هزینه) روز دوم: امکان سنجی از نظر بازار (برآورد فروش) روز سوم: امکان سنجی از نظر مالی (ارزیابی اقتصادی طبق داده های بدست آمده از هزینه-فروش) روز چهارم: نگارش Business Plan """ ,
         "output":"Business Plan"
     },
     {
@@ -101,7 +86,7 @@ stages = [
 ]
 
 # -----------------------------
-# رابط کاربری Accordion
+# رابط کاربری تعاملی (Accordion style)
 # -----------------------------
 st.markdown("### Pipeline")
 
@@ -112,8 +97,4 @@ for stage in stages:
         st.markdown(f"<div dir='rtl'><b>📄 خروجی:</b> {stage['output']}</div>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 
-# -----------------------------
-# نمایش لوگو در انتهای صفحه
-# -----------------------------
 st.image("logo-removebg-preview.png", use_column_width=True)
-
