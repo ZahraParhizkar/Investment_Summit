@@ -1,7 +1,6 @@
 # فایل: summit_schedule_app.py
 
 import streamlit as st
-st.image("Picture1.png", use_column_width=True)
 # -----------------------------
 # عنوان اپلیکیشن
 # -----------------------------
@@ -23,6 +22,8 @@ background-attachment: fixed;
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 #********
+st.image("Picture1.png", use_column_width=True)
+
 # -----------------------------
 # تعریف داده‌ها (هر مرحله به همراه نام انگلیسی)
 # -----------------------------
@@ -120,6 +121,7 @@ for stage in stages:
         st.markdown(f"<div dir='rtl'><b>📄 خروجی:</b> {stage['output']}</div>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
