@@ -10,26 +10,7 @@ st.set_page_config(
 )
 
 # -----------------------------
-# اضافه کردن پس‌زمینه و شفافیت Accordion
-# -----------------------------
-page_bg_img = """
-<style>
-.stApp {
-    background-image: url("parkenter.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
-/* شفافیت Accordion ها */
-div.stExpander {
-    background: rgba(255, 255, 255, 0.8); /* سفید شفاف */
-    border-radius: 10px;
-    padding: 10px;
-}
-</style>
-"""
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # -----------------------------
@@ -135,3 +116,4 @@ for stage in stages:
 # نمایش لوگو در انتهای صفحه
 # -----------------------------
 st.image("logo-removebg-preview.png", use_column_width=True)
+
