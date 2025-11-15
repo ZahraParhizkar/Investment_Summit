@@ -1,3 +1,4 @@
+# فایل: summit_schedule_app.py
 import streamlit as st
 
 # -----------------------------
@@ -9,30 +10,23 @@ st.set_page_config(
 )
 
 # -----------------------------
-# اضافه کردن پس‌زمینه و شفافیت Accordion
+# اضافه کردن پس‌زمینه
 # -----------------------------
 page_bg_img = """
 <style>
 .stApp {
-    background-image: url("parkenter.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-/* شفافیت Accordion ها */
-div.stExpander {
-    background: rgba(255, 255, 255, 0.8); /* سفید شفاف */
-    border-radius: 10px;
-    padding: 10px;
+background-image: url("parkenter.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # -----------------------------
-# نمایش تصویر بالای صفحه
+# نمایش تصویر اصلی در بالای صفحه
 # -----------------------------
 st.image("Picture1.png", use_column_width=True)
 
@@ -40,11 +34,19 @@ st.image("Picture1.png", use_column_width=True)
 # تعریف داده‌ها
 # -----------------------------
 stages = [
-    # … داده‌های شما
+    {
+        "id": "Pre-Feasibility Study Workshop",
+        "title_fa": "کارگاه Pre-Feasibility Study",
+        "title_en": "Pre-Feasibility Study Workshop",
+        "date": "8-13آذر",
+        "goal": "آموزش تیم‌ها برای نوشتن Pre-Feasibility Study استاندارد",
+        "output": "سند اولیه Pre-Feasibility Study"
+    },
+    # … بقیه داده‌ها مانند قبل
 ]
 
 # -----------------------------
-# رابط کاربری Accordion
+# رابط کاربری تعاملی (Accordion style)
 # -----------------------------
 st.markdown("### Pipeline")
 
