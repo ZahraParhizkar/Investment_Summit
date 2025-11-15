@@ -62,7 +62,7 @@ stages = [
         "id": "Checkpoint",
         "title_fa": "جلسات Checkpoint / منتورینگ نهایی",
         "title_en": "Checkpoint & Final Mentorship",
-        "date": "۳–۵ دی",
+        "date": "3-5 دی",
         "goal": "بازبینی، اصلاح Business Plan و آماده‌سازی Pitch",
         "output": "نسخه نهایی Business Plan و Pitch Deck"
     },
@@ -70,7 +70,7 @@ stages = [
         "id": "PitchNight",
         "title_fa": "Pitch Night",
         "title_en": "Pitch Night",
-        "date": "۱۰ دی",
+        "date": "10 دی",
         "goal": "ارائه تیم‌ها به هیئت داوران و سرمایه‌گذاران",
         "output": "انتخاب تیم‌های نهایی برای مرحله مذاکره سرمایه‌گذاری"
     },
@@ -78,7 +78,7 @@ stages = [
         "id": "FinalNight",
         "title_fa": "Final Night",
         "title_en": "Final Night",
-        "date": "۲۵ دی",
+        "date": "25 دی",
         "goal": "معرفی برگزیدگان و شبکه‌سازی میان تیم‌ها و سرمایه‌گذاران",
         "output": "تیم‌های منتخب و فرصتی برای مذاکرات اولیه"
     },
@@ -104,6 +104,7 @@ for stage in stages:
         st.markdown(f"<div dir='rtl'><b>📄 خروجی:</b> {stage['output']}</div>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
