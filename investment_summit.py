@@ -21,7 +21,7 @@ st.markdown("""
 </style>
 
 <img class="logo" src="logo-removebg-preview.png">
-""", unsafe_allow_html=True)
+""")
 #*******************************************************************************
 
 # -----------------------------
@@ -136,6 +136,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
