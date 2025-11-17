@@ -10,7 +10,7 @@ st.image("POWERLOGO.png", use_column_width=True)
 # -----------------------------
 # عنوان اپلیکیشن
 # -----------------------------
-st.set_page_config(page_title="Investment Summit - Health Science and Technology Park", layout="wide")
+st.set_page_config(page_title="Investment Summit - Health Science and Technology Park", layout="centered")
 
 #*******************************************************************************
 
@@ -130,6 +130,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
