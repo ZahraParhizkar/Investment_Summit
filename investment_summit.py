@@ -124,6 +124,9 @@ stages = [
 # -----------------------------
 # رابط کاربری تعاملی (Accordion style)
 # -----------------------------
+
+
+
 st.markdown("### Pipeline")
 
 
@@ -145,6 +148,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
