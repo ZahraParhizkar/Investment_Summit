@@ -146,6 +146,10 @@ progress = current_stage_index / total_stages
 st.markdown(f"### پیشرفت کل: {current_stage_index}/{total_stages} مرحله")
 st.progress(progress)
 
+st.image("lastpic.png", use_column_width=True)
+
+
+
 
 
 
