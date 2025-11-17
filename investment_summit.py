@@ -137,16 +137,10 @@ for stage in stages:
         st.markdown(f"<div dir='rtl'><b>📄 خروجی:</b> {stage['output']}</div>", unsafe_allow_html=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 
-stage_titles = [s["title_en"] for s in stages]
-selected_stage = st.selectbox("مرحله فعلی:", stage_titles)
-current_stage_index = stage_titles.index(selected_stage) + 1
-total_stages = len(stages)
-progress = current_stage_index / total_stages
 
-st.markdown(f"### پیشرفت کل: {current_stage_index}/{total_stages} مرحله")
-st.progress(progress)
 
 st.image("lastpic.png", use_column_width=True)
+
 
 
 
