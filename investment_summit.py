@@ -55,7 +55,8 @@ stages = [
         "title_en": "4-Day Bootcamp",
         "date": "29 آذر الی 2 دی",
         "goal": 
-           """روز اول: امکان سنجی از نظر فنی (برآورد هزینه)
+           """
+           روز اول: امکان سنجی از نظر فنی (برآورد هزینه)
 
 روز دوم: امکان سنجی از نظر بازار (برآورد فروش)
 
@@ -120,6 +121,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
