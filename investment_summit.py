@@ -126,6 +126,7 @@ stages = [
 # رابط کاربری تعاملی (Accordion style)
 # -----------------------------
 
+clean_text = text_with_div.replace("</div>", "")
 
 
 st.markdown("### Pipeline")
@@ -141,6 +142,7 @@ for stage in stages:
 
 st.markdown("<br><br><br>", unsafe_allow_html=True)  # چند خط فاصله
 st.image("lastpic.png", use_column_width=True)
+
 
 
 
