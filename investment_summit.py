@@ -10,18 +10,18 @@ st.set_page_config(page_title="Investment Summit - Health Science and Technology
 #*******************************************************************************
 st.markdown("""
 <style>
-/* لوگو را در گوشه بالا سمت راست قرار می‌دهد */
 .logo {
     position: fixed;
-    top: 10px;   /* فاصله از بالا */
-    right: 10px; /* فاصله از راست */
-    width: 100px; /* اندازه لوگو */
-    z-index: 100; /* روی همه المان‌ها باشد */
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    z-index: 100;
 }
 </style>
 
 <img class="logo" src="logo-removebg-preview.png">
-""")
+""", unsafe_allow_html=True)
+
 #*******************************************************************************
 
 # -----------------------------
@@ -136,6 +136,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
