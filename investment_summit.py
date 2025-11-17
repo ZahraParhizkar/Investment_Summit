@@ -16,6 +16,9 @@ st.markdown("""
     <img src="BDO.PNG" width="100">
 </div>
 """, unsafe_allow_html=True)
+
+
+#
 st.image("POWERLOGO.png", use_column_width=True)
 # -----------------------------
 # عنوان اپلیکیشن
@@ -140,6 +143,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
