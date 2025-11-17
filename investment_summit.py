@@ -58,8 +58,8 @@ stages = [
         "title_fa": "داوری اولیه (Evaluation Committee)",
         "title_en": "Initial Evaluation",
         "date": "22-26 آذر",
-        "goal": "غربالگری ایده‌ها و انتخاب تیم‌های برگزیده برای Bootcamp",
-        "output": "فهرست تیم‌های پذیرفته‌شده برای Bootcamp"
+        "output": "غربالگری ایده‌ها و انتخاب تیم‌های برگزیده برای Bootcamp",
+        "goal": "فهرست تیم‌های پذیرفته‌شده برای Bootcamp"
     },
     {
         "id": "Kickoff",
@@ -140,6 +140,7 @@ for stage in stages:
 
 st.markdown("<br><br><br>", unsafe_allow_html=True)  # چند خط فاصله
 st.image("lastpic.png", use_column_width=True)
+
 
 
 
