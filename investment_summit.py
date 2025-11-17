@@ -1,6 +1,6 @@
 # فایل: summit_schedule_app.py
 import streamlit as st
-st.image("Picture1.png", use_column_width=True)
+st.image("POWERLOGO.png", use_column_width=True)
 
 # -----------------------------
 # عنوان اپلیکیشن
@@ -125,6 +125,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
