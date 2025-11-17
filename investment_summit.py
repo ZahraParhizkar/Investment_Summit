@@ -104,21 +104,6 @@ stages = [
 # -----------------------------
 # رابط کاربری تعاملی (Accordion style)
 # -----------------------------
-st.markdown("""
-<style>
-/* بارگذاری فونت B Nazanin */
-@font-face {
-    font-family: 'BNazanin';
-    src: url('https://cdn.jsdelivr.net/gh/rastikerdar/bnazanin-font/BNazanin.ttf') format('truetype');
-}
-
-/* اعمال فونت روی تمام متن‌ها */
-body, div, span, h1, h2, h3, h4, h5, h6, p {
-    font-family: 'BNazanin' !important;
-}
-</style>
-""", unsafe_allow_html=True)
-
 st.markdown("### Pipeline")
 
 
@@ -140,6 +125,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
