@@ -60,7 +60,7 @@ stages = [
           "روز سوم: امکان سنجی از نظر مالی (ارزیابی اقتصادی)\n"
           "روز چهارم: نگارش Business Plan",
         "output": "Business Plan"
-}
+    }
     {
         "id": "Checkpoint",
         "title_fa": "جلسات Checkpoint / منتورینگ نهایی",
@@ -118,6 +118,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
