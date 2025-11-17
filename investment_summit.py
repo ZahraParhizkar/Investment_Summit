@@ -10,7 +10,7 @@ left_logo = Image.open("BDO.PNG")
 right_logo = Image.open("logo-removebg-preview.png")
 
 # نمایش در یک سطر با columns
-col1, col2 = st.columns([1, -1])
+col1, col2 = st.columns([1, 0])
 with col1:
     st.image(left_logo, width=100)
 with col2:
@@ -143,6 +143,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
