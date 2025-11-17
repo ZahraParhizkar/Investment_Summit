@@ -1,5 +1,10 @@
 # فایل: summit_schedule_app.py
 import streamlit as st
+st.markdown("""
+<div style="text-align: right; margin-bottom: 20px;">
+    <img src="logo-removebg-preview.png" width="100">
+</div>
+""", unsafe_allow_html=True)
 st.image("POWERLOGO.png", use_column_width=True)
 
 # -----------------------------
@@ -8,11 +13,7 @@ st.image("POWERLOGO.png", use_column_width=True)
 st.set_page_config(page_title="Investment Summit - Health Science and Technology Park", layout="wide")
 
 #*******************************************************************************
-st.markdown("""
-<div style="text-align: right; margin-bottom: 20px;">
-    <img src="logo-removebg-preview.png" width="100">
-</div>
-""", unsafe_allow_html=True)
+
 
 
 #*******************************************************************************
@@ -129,6 +130,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
