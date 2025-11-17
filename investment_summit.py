@@ -1,5 +1,7 @@
 # فایل: summit_schedule_app.py
 import streamlit as st
+
+#right
 st.markdown("""
 <div style="text-align: right; margin-bottom: 200px;">
     <img src="logo-removebg-preview.png" width="100">
@@ -7,6 +9,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 st.image("POWERLOGO.png", use_column_width=True)
 
+#left
+
+st.markdown("""
+<div style="text-align: left; margin-bottom: 200px;">
+    <img src="BDO.PNG" width="100">
+</div>
+""", unsafe_allow_html=True)
+st.image("POWERLOGO.png", use_column_width=True)
 # -----------------------------
 # عنوان اپلیکیشن
 # -----------------------------
@@ -130,6 +140,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
