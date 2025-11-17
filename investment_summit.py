@@ -74,8 +74,8 @@ stages = [
         "title_fa": "Bootcamp 4 روزه",
         "title_en": "4-Day Bootcamp",
         "date": "29 آذر الی 2 دی",
-        "goal": "آموزش و آماده‌سازی تیم‌ها برای Pitch و نوشتن BP",
-        "output": 
+        "output": "آموزش و آماده‌سازی تیم‌ها برای Pitch و نوشتن BP",
+        "goal": 
            """
            
            روز اول: امکان سنجی از نظر فنی (برآورد هزینه)
@@ -140,6 +140,7 @@ for stage in stages:
 
 st.markdown("<br><br><br>", unsafe_allow_html=True)  # چند خط فاصله
 st.image("lastpic.png", use_column_width=True)
+
 
 
 
