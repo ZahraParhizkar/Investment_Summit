@@ -1,7 +1,7 @@
 # فایل: summit_schedule_app.py
 import streamlit as st
 st.markdown("""
-<div style="text-align: right; margin-bottom: 20px;">
+<div style="text-align: right; margin-bottom: 200px;">
     <img src="logo-removebg-preview.png" width="100">
 </div>
 """, unsafe_allow_html=True)
@@ -130,6 +130,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
