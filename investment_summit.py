@@ -2,7 +2,7 @@
 import streamlit as st
 
 st.markdown("""
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 200px;">
     <!-- لوگو سمت چپ -->
     <img src="BDO.PNG" width="100">
     
@@ -138,6 +138,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
