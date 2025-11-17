@@ -147,7 +147,7 @@ st.markdown(f"### پیشرفت کل: {current_stage_index}/{total_stages} مرح
 st.progress(progress)
 
 
-st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
