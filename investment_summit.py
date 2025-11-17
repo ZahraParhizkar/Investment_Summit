@@ -7,20 +7,6 @@ st.image("POWERLOGO.png", use_column_width=True)
 # -----------------------------
 st.set_page_config(page_title="Investment Summit - Health Science and Technology Park", layout="centered")
 
-
-st.markdown("""
-<style>
-@font-face {
-    font-family: 'BNazanin';
-    src: url('https://cdn.jsdelivr.net/gh/rastikerdar/bnazanin-font/BNazanin.ttf') format('truetype');
-}
-
-/* اعمال فونت روی همه عناصر متن */
-p, h1, h2, h3, h4, h5, h6 {
-    font-family: 'BNazanin' !important;
-}
-</style>
-""", unsafe_allow_html=True)
 #*******************************************************************************
 
 #*******************************************************************************
@@ -137,6 +123,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
