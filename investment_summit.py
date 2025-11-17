@@ -7,7 +7,7 @@ from PIL import Image
 left_logo = Image.open("BDO.PNG")
 
 # لوگوی سمت راست
-right_logo = Image.open("logo-removebg-preview.png")
+right_logo = Image.open("parklogo.png")
 
 # نمایش در یک سطر با columns
 col1, col2 = st.columns([1, 1])  # ستون سمت راست بزرگتر
@@ -145,6 +145,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
