@@ -57,6 +57,7 @@ stages = [
         "goal": "آموزش و آماده‌سازی تیم‌ها برای Pitch و نوشتن BP",
         "output": 
            """
+           
            روز اول: امکان سنجی از نظر فنی (برآورد هزینه)
 
 روز دوم: امکان سنجی از نظر بازار (برآورد فروش)
@@ -123,6 +124,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
