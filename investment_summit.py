@@ -138,8 +138,9 @@ for stage in stages:
         st.markdown("<hr>", unsafe_allow_html=True)
 
 
-
+st.markdown("<br><br><br>", unsafe_allow_html=True)  # چند خط فاصله
 st.image("lastpic.png", use_column_width=True)
+
 
 
 
