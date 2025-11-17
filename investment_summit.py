@@ -1,15 +1,20 @@
 # فایل: summit_schedule_app.py
 import streamlit as st
 
-st.markdown("""
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 200px;">
-    <!-- لوگو سمت چپ -->
-    <img src="BDO.PNG" width="100">
-    
-    <!-- لوگو سمت راست -->
-    <img src="logo-removebg-preview.png" width="100">
-</div>
-""", unsafe_allow_html=True)
+from PIL import Image
+
+# لوگوی سمت چپ
+left_logo = Image.open("BDO.PNG")
+
+# لوگوی سمت راست
+right_logo = Image.open("logo-removebg-preview.png")
+
+# نمایش در یک سطر با columns
+col1, col2 = st.columns([1, 1])
+with col1:
+    st.image(left_logo, width=100)
+with col2:
+    st.image(right_logo, width=100)
 
 
 
@@ -138,6 +143,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
