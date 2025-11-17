@@ -54,14 +54,13 @@ stages = [
         "title_fa": "Bootcamp 4 روزه",
         "title_en": "4-Day Bootcamp",
         "date": "29 آذر الی 2 دی",
-        "goal": """ 
-        روز اول: امکان سنجی از نظر فنی (برآورد هزینه) 
-        روز دوم: امکان سنجی از نظر بازار (برآورد فروش) 
-        روز سوم: امکان سنجی از نظر مالی (ارزیابی اقتصادی طبق داده های بدست آمده از هزینه-فروش) 
-        روز چهارم: نگارش
-        Business Plan """ ,
-        "output":"Business Plan"
-    },
+        "goal": 
+          "روز اول: امکان سنجی از نظر فنی (برآورد هزینه)\n"
+          "روز دوم: امکان سنجی از نظر بازار (برآورد فروش)\n"
+          "روز سوم: امکان سنجی از نظر مالی (ارزیابی اقتصادی)\n"
+          "روز چهارم: نگارش Business Plan",
+        "output": "Business Plan"
+}
     {
         "id": "Checkpoint",
         "title_fa": "جلسات Checkpoint / منتورینگ نهایی",
@@ -119,6 +118,7 @@ st.progress(progress)
 
 
 st.image("logo-removebg-preview.png", use_column_width=True)
+
 
 
 
