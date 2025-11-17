@@ -74,7 +74,7 @@ stages = [
         "title_fa": "Bootcamp 4 روزه",
         "title_en": "4-Day Bootcamp",
         "date": "29 آذر الی 2 دی",
-        "output": "Feasible Study و در صورت پذیرش از نظر اقتصادی، Business Plan ",
+        "output": "در صورتیکه نتایج حاصل از feasible study نشان دهد که طرح از نظر اقتصادی مورد قبول است، Business Plan به عنوان خروجی نهایی خواهد بود. ",
         "goal": 
            """
            
@@ -144,6 +144,7 @@ for stage in stages:
 
 st.markdown("<br><br><br>", unsafe_allow_html=True)  # چند خط فاصله
 st.image("lastpic.png", use_column_width=True)
+
 
 
 
