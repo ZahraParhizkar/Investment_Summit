@@ -85,7 +85,7 @@ stages = [
            روز سوم: امکان سنجی از نظر مالی (ارزیابی اقتصادی طبق داده های بدست آمده از هزینه-فروش
 
            روز چهارم: نگارش Business Plan
-           """
+          
         
     },
     {
@@ -141,6 +141,7 @@ for stage in stages:
 
 st.markdown("<br><br><br>", unsafe_allow_html=True)  # چند خط فاصله
 st.image("lastpic.png", use_column_width=True)
+
 
 
 
